@@ -1,0 +1,413 @@
+*{box-sizing: border-box;
+margin:0;
+padding: 0;}
+@font-face {
+    font-family:"open" ;
+    src: url('OpenSansCondensed-Light.ttf');
+}
+@font-face {
+    font-family: "bree";
+    src: url('BreeSerif-Regular.ttf');
+}
+body{
+    background-color: #F2F2F2;
+    font-size: 16px;
+    font-family: bree;
+    color:black;
+   
+}
+header{
+    background-color: #CA1F28;
+    
+    
+    padding-bottom: 20px;
+    color: #e7bd70;
+}
+
+.midheader{
+    width: 89%;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.midheader span{color:#e7bd70;}
+
+.topheader p{
+    width: 100%;
+    position: relative;
+    left:0;
+    text-align: center;
+    padding:10px;
+    background:#99111B;
+}
+header nav{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:end;
+}
+header nav a,footer nav a,i{
+    color:#e7bd70;
+    text-decoration: none;
+    padding: 0.5em;
+}
+header i{
+    border:1px solid white;
+    border-radius:100%;
+}
+nav a:hover{
+    transform:scale(1.2);
+    background-color: #99111B;
+}
+/****************main*************************/
+
+main{
+    width:1100px;
+    margin:auto;
+    line-height:40px;
+}
+#Noel
+{
+    width:99%;
+}
+h1{
+    color:goldenrod;
+    margin: 30px auto;}
+h1,.section7 span{
+    font-size: 40px;
+}
+h2{
+    color:goldenrod;
+    font-size: 25px;
+}
+h3,h4{
+    font-size:20px;
+}
+h4{
+    color: black;
+}
+h2:before, h2:after { 
+    content:''; 
+    display:inline-block;
+    vertical-align: middle; 
+    width: 15%;
+    height: 1px; 
+    background:#99111B;}
+h2:before { margin-right: .3rem }
+h2:after { margin-left: .3rem }
+.section2 h2:after,.section2 h2:before
+{width:13em;}
+.section2,.section3{
+    background-color: white;
+    margin-bottom: 2%;
+    padding:5%;
+}
+.section2 div div{
+    width:20%;
+    display:flex;
+    flex-direction:column;
+}
+.section2 div{
+    display:flex;
+    flex-direction:row;
+}
+.section2 div img:hover{
+    opacity:0.5;
+}
+.section3 div article{
+     width:34%;
+     display:flex;
+     flex-direction:column;
+     text-align: center;
+}
+.section3 div{
+    display:flex;
+    flex-direction: row;
+}
+.section3 article a,.section6 div div a{
+    background-color:#7b6049;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.section5 article{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section5{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#e7bd70;
+    padding:20px;
+}
+.section4,.section6{
+    background-color: white;
+    padding:20px;
+}
+.section4 h1{
+    color:black;
+}
+.section4 h2:before{
+    width:0%;
+}
+.section4 h2:after{
+    width:65%;
+}
+.section6 h2:before{
+    width:1%;
+}
+.section6 h2:after{
+    width:73%;
+}
+.section6 h2{
+    display: inline;
+}
+.section6 p{text-align: left;}
+.section4 #amelie{
+    width:46%;
+    float:left;
+    padding-right: 10px;
+}
+.section4 #xavier{
+    width: 46%;
+    float:right;
+    padding-left: 10px;
+}
+.section6>img{
+    float:left;
+    display:inline-block;
+}
+.section6 div div img{
+    width:70%;
+}
+.section6{margin:20px;}
+.section6 div div{
+    width:34%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.section6 div{
+    clear:both;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section7{
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.section7 div div{
+   width:35% ;
+   display:flex;
+   flex-direction: column;
+}
+.section7 div{
+    display:flex;
+    flex-direction: row;
+}
+#button{
+    background-color:#7b6049;
+    padding: 15px 40px;
+    border: none;
+    color:white;
+    font-family: open;
+    font-size: 1em;
+}
+#button:hover{
+    opacity:50%;
+}
+.section7 #form form{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 100px;
+}
+#topsection7{
+    margin-top: 0;
+}
+.section7 i{
+    color:red;
+}
+.section7 #form a,.section7 div a{
+    text-decoration: none;
+    color:goldenrod;
+}
+.section7 div cite{
+    text-align: right;
+}
+.section7 #stars i{
+    padding: 5px;
+    color:gold;
+}
+
+/*************************footer******************************/
+footer nav div{
+    width:20%;
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+footer nav{
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+}
+.footerliens div ul{
+    text-align: center;
+}
+.footerliens div{
+    width:33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerliens li,.footerliens li a,footer a{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+.footerliens{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:#CA1F28;
+    padding:30px auto;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+
+footer{
+   
+    background-color: #99111B;
+    text-align: center;
+    color:goldenrod;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    main{
+         width:100%;
+    }
+    .section2 div div{
+        width:50%;
+    }
+    .section3 div article{
+        width: 100%;
+    }
+    .section2 div,.section3 div{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .section2 h2:after,.section2 h2:before
+     {width:9em;}
+     #ribbon{
+         top:-20px;
+         right:-750px;}
+     .section5 article{
+            width: 100%;
+        }
+      .section5{
+            display: flex;
+            flex-wrap:wrap;
+        }
+     #wa{width: 10%;}
+}
+@media screen and (max-width:768px){
+    main{
+        width: 100%;
+    }
+    #mainhome {display: none;}
+    header nav a{
+        width:80%;
+        margin: auto;
+        text-align: center;
+    }
+    header nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    header #ribbon,.midheader span{display: none;}
+    .midheader{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .midheader p{
+        width: 120px;
+        padding: 5px;
+        border-radius:0 50px 50px 0;
+        box-shadow: 0 0 20px rgb(78, 78, 78);
+        margin:20px 0;
+    }
+    .section2 div div{
+        width:50%;
+    }
+    .section3 div article{
+        width: 100%;
+    }
+    .section2 div,.section3 div{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .section2 h2:after,.section2 h2:before
+     {width:5.5em;}
+     .section4 #amelie,.section4 #xavier{
+        width: 100%;
+        display: block;
+      }
+    .section5 article{
+          width: 100%;
+      }
+    .section5{
+          display: flex;
+          flex-wrap:wrap;
+      }
+    .section6>img{
+        display: none;
+    }
+    .section6 div div,.section7 div div{
+        width: 100%;
+
+    }
+    .section6 div,.section7 div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footerliens div{
+      width:100%;
+    }
+    .footerliens{
+        display: flex;
+        flex-direction: column;
+    }
+    footer nav div{
+        width: 50%;
+    }
+    footer nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #wa{
+        width:10%;
+    }
+}
